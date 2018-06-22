@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-// import '../styles/DetailsButton.css';
+import '../styles/NavLink.css';
 
 class NavLink extends Component {  
   render() {
     return (
-        <li><a className={this.props.className} href="google.com">{this.props.linkText}</a></li>
+        <li className={this.props.className}><a  href="google.com">{this.props.linkText}</a></li>
       );
     } 
 }

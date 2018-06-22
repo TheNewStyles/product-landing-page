@@ -1,0 +1,7 @@
+.nav-link {
+    display: flex;
+}
+
+.nav-link a {
+    text-decoration: none;
+}

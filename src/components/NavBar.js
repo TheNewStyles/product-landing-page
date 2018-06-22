@@ -5,15 +5,12 @@ import NavLink from './NavLink';
 
 class NavBar extends Component {  
   render() {
-      // eslint-disable-next-line
-    const navLinkClass = "nav-link";
-
     return (
         <nav id={this.props.id} className={this.props.className}>
             <ul className="nav-bar-ul-flex-container">
-                <NavLink className={this.navLinkClass} linkText="Home" />
-                <NavLink className={this.navLinkClass} linkText="Order" />
-                <NavLink className={this.navLinkClass} linkText="Contact" />
+                <NavLink className="nav-link" linkText="Home" />
+                <NavLink className="nav-link" linkText="Order" />
+                <NavLink className="nav-link" linkText="Contact" />
             </ul>
         </nav>
       );
