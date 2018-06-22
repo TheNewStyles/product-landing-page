@@ -7,6 +7,10 @@
   flex: 1 100%;
 }
 
+article {
+  margin: 1em;
+}
+
 /* Medium screens */
 /* @media all and (min-width: 600px) {
   We tell both sidebars to share a row

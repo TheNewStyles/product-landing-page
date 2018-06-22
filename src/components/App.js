@@ -13,9 +13,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <section className=".flex-container-app">
+        <section className="flex-container-app">
           <Header />          
-          <EmailForm />
+          <EmailForm className="email-form" />
           <article>
             <Features title="Faster Shipping" details="this is the fastest shipping you could ever imagine"/>
             <Features title="Faster Shipping" details="this is the fastest shipping you could ever imagine" />

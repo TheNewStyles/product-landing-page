@@ -1,7 +1,8 @@
 .flex-container-header {
     display: flex;
     flex: row;
-    flex-wrap: nowrap
+    flex-wrap: nowrap;
+    background-color: darkkhaki;
 }
 
 .logo-header {
