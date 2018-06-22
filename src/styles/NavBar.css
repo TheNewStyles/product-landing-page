@@ -1,0 +1,11 @@
+.nav-bar {
+    flex: 6;
+    align-items: center;
+}
+
+.nav-bar-ul-flex-container {
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    
+}

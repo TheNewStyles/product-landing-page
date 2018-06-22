@@ -13,7 +13,7 @@ class Header extends Component {
             <img id="header-img" src={logo} className="App-logo" alt="logo for blah" />
             <figcaption>My company logo</figcaption>
           </figure>          
-          <NavBar id="nav-bar"/>
+          <NavBar id="nav-bar" className="nav-bar"/>
         </header>
       );
     } 
