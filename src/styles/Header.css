@@ -1,0 +1,9 @@
+.flex-container-header {
+    display: flex;
+    flex: row;
+    flex-wrap: nowrap
+}
+
+.logo-header {
+    flex: 2 0px;
+}
