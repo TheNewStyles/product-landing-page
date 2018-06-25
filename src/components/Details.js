@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import '../styles/DetailsContainer.css';
+import '../styles/Details.css';
 import ProductButton from './ProductButton';
 
 class DetailsContainer extends Component {  
@@ -9,7 +9,7 @@ class DetailsContainer extends Component {
         <div className="details-item">
             <h3>{this.props.title}</h3>
             <p>{this.props.details}</p>
-            <ProductButton value="See Details"/>
+            <ProductButton className="productbutton-email-button" value={this.props.price}/>
         </div>
       );
     } 

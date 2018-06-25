@@ -5,7 +5,7 @@ import '../styles/FontScale.css';
 import bread from '../images/bread.svg';
 import leaf from '../images/leaf.svg';
 import location from '../images/location-pointer.svg';
-import DetailsContainer from './DetailsContainer';
+import DetailsContainer from './Details';
 import Header from './Header';
 import EmailForm from './EmailForm';
 import Features from './Features';
@@ -25,10 +25,10 @@ class App extends Component {
             <Features title="Local" alt="gps icon" logo={location} details="We are family owned and operated. Made with love right here in Salt Lake City, UT for over 10 years."/>
           </article>
           <Video />
-          <article className="flex-container-app">
-            <DetailsContainer title="Product Details 1" details="these are details" />
-            <DetailsContainer title="Product Details 2" details="these are details" />
-            <DetailsContainer title="Product Details 3" details="these are details" />
+          <article className="flex-container-app  gray-bg not-as-dark-purple-txt no-margin">
+            <DetailsContainer title="Donuts" price="17.99" details="Try our world famous donuts." />
+            <DetailsContainer title="Cronuts"  price="22.99" details="Our new croissant-doughnut pastry." />
+            <DetailsContainer title="Cakes"  price="14.99" details="Made to order. We handle all occasions." />
           </article>
         <Footer /> 
         </section>               
