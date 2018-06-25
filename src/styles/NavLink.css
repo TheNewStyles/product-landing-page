@@ -1,5 +1,6 @@
 .nav-link {
     display: flex;
+    padding: 1em;
 }
 
 .nav-link a {

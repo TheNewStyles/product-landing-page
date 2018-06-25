@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-// import '../styles/DetailsButton.css';
 import logo from '../images/logo.svg';
 import '../styles/Header.css'
 import NavBar from './NavBar';

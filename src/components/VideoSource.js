@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-// import '../styles/DetailsButton.css';
-
 class VideoSource extends Component {  
   render() {
     

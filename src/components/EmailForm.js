@@ -8,7 +8,7 @@ class EmailForm extends Component {
     return (
         <article>
           <form id="form" action="" className={this.props.className}>
-              <label htmlFor="email">THE BEST STUFF SIGN UP HERE</label>
+              <h4><label htmlFor="email">THE BEST STUFF SIGN UP HERE</label></h4>
               <input id="email" name="email" className="email-form-input" type="email" placeholder="Enter email" required/>
               <ProductButton id="submit" className="productbutton-email-button" name="submit" action="https://www.freecodecamp.com/email-submit" value="Subscribe to our deals"/>
           </form>

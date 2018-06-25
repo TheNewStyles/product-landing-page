@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-// import '../styles/DetailsButton.css';
 import VideoSource from './VideoSource.js'
 
 class Video extends Component {  

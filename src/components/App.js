@@ -16,13 +16,13 @@ class App extends Component {
         <section className="flex-container-app">
           <Header />          
           <EmailForm className="email-form" />
-          <article>
+          <article className="flex-container-app">
             <Features title="Faster Shipping" details="this is the fastest shipping you could ever imagine"/>
             <Features title="Faster Shipping" details="this is the fastest shipping you could ever imagine" />
             <Features title="Faster Shipping" details="this is the fastest shipping you could ever imagine"/>
           </article>
           <Video />
-          <article>
+          <article className="flex-container-app">
             <DetailsContainer title="Product Details 1" details="these are details" />
             <DetailsContainer title="Product Details 2" details="these are details" />
             <DetailsContainer title="Product Details 3" details="these are details" />

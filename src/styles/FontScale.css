@@ -41,7 +41,6 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
   }
   
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
     height: 80px;
     margin: 0;
   }

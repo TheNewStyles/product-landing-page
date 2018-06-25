@@ -1,7 +1,7 @@
 .productbutton-email-button{
     margin: 1em 0 1em 0;
     padding: 1em;
-    background: rgba(155, 155, 155, 0.1);
+    background: rgba(247, 224, 20, 0.788);
     
     min-width: 200px;
     max-width: 500px;
@@ -10,7 +10,7 @@
     border: 0.1em solid rgba(155, 155, 155, 0.774);
     border-radius: 0.5em;
 
-    Font-Family: 'Signika', Sans-Serif;
+    font-family: 'Merriweather ', sans-serif;
 }
   
 input:focus {
