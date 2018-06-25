@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import NavLink from './NavLink';
 
- import '../styles/NavBar.css';
+import '../styles/NavBar.css';
+import NavLink from './NavLink';
 
 class NavBar extends Component {  
   render() {

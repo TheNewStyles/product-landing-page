@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 import '../styles/App.css';
 import '../styles/FontScale.css';
+import bread from '../images/bread.svg';
+import leaf from '../images/leaf.svg';
+import location from '../images/location-pointer.svg';
 import DetailsContainer from './DetailsContainer';
 import Header from './Header';
 import EmailForm from './EmailForm';
@@ -13,13 +16,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <section className="flex-container-app">
+        <section className="flex-container-app ">
           <Header />          
           <EmailForm className="email-form" />
-          <article className="flex-container-app">
-            <Features title="Faster Shipping" details="this is the fastest shipping you could ever imagine"/>
-            <Features title="Faster Shipping" details="this is the fastest shipping you could ever imagine" />
-            <Features title="Faster Shipping" details="this is the fastest shipping you could ever imagine"/>
+          <article className="flex-container-app gray-bg not-as-dark-purple-txt no-margin ">
+            <Features title="Organic" alt="Organic leaf icon" logo={leaf} details="We use nothing but the finest organic ingredients. Sourced from our locals farmers and vendors."/>
+            <Features title="Handcrafted"  alt="Bread icon" logo={bread} details="Made from scracth everyday." />
+            <Features title="Local" alt="gps icon" logo={location} details="We are family owned and operated. Made with love right here in Salt Lake City, UT for over 10 years."/>
           </article>
           <Video />
           <article className="flex-container-app">

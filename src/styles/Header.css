@@ -2,10 +2,14 @@
     display: flex;
     flex: row;
     flex-wrap: nowrap;
-    background-color: darkkhaki;
+    color: var(--off-white);
 }
 
 .logo-header {
     flex: 2 0px;
     margin: 1em;
+}
+
+#header-img {
+    margin-top: 0.5em; 
 }

@@ -11,20 +11,75 @@ article {
   margin: 1em;
 }
 
-/* Medium screens */
-/* @media all and (min-width: 600px) {
-  We tell both sidebars to share a row
-  .aside { flex: 1 auto; }
+:root {
+  --light-purple: #424874 ;
+  --light-tan: #FFE1A8;
+  --rose-pink: #E26D5C;
+  --pink-white: #F5E9E2;
+  --dark-purple: #0B0014;
+  --not-as-dark-purple: rgba(22, 2, 37, 0.692);
+  --gray: #B4B8AB;
 }
 
-Large screens
-@media all and (min-width: 800px) {
-  We invert order of first sidebar and main
-   * And tell the main element to take twice as much width as the other two sidebars 
-  
-  .main { flex: 2 0px; }
-  .aside-1 { order: 1; }
-  .main    { order: 2; }
-  .aside-2 { order: 3; }
-  .footer  { order: 4; }
-} */
+.pink-white-bg {
+  background-color: var(--pink-white);
+}
+
+.gray-bg {
+  background-color: var(--gray);
+}
+
+.light-purple-bg {
+  background-color: var(--light-purple);
+}
+
+.light-tan-bg {
+  background-color: var(--light-tan);
+}
+
+.rose-pink-bg {
+  background-color: var(--rose-pink);
+}
+
+.dark-purple-bg {
+  background-color: var(--dark-purple);
+}
+
+.not-as-dark-purple-bg {
+  background-color: var(--not-as-dark-purple);
+}
+
+.not-as-dark-purple-txt {
+  color: var(--not-as-dark-purple);
+}
+
+
+.pink-white-txt {
+  color: var(--pink-white);
+}
+
+.light-purple-txt {
+  color: var(--light-purple);
+}
+
+.light-tan-txt {
+  color: var(--light-tan);
+}
+
+.rose-pink-txt {
+  color: var(--rose-pink);
+}
+
+.dark-purple-txt {
+  color: var(--dark-purple);
+}
+
+.gray-txt {
+  color: var(--gray);
+}
+
+.no-margin {
+  margin: 0;
+}
+
+
