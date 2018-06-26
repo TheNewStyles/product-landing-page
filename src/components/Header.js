@@ -8,8 +8,9 @@ class Header extends Component {
   render() {
     return (
         <header id="header" className="flex-container-header rose-pink-bg">
-          <figure className="logo-header">             
-            <img id="header-img" src={logo} className="App-logo" alt="Logo for Muffin Top Bakery" />            
+          <figure className="logo-header">                         
+            <img id="header-img" src={logo} className="App-logo" alt="Logo for Muffin Top Bakery" />  
+            <figcaption >MUFFIN TOPS BAKERY</figcaption>          
           </figure>          
           <NavBar id="nav-bar" className="nav-bar"/>
         </header>

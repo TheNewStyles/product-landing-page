@@ -26,9 +26,9 @@ class App extends Component {
           </article>
           <Video />
           <article className="flex-container-app  gray-bg not-as-dark-purple-txt no-margin">
-            <DetailsContainer title="Donuts" price="17.99" details="Try our world famous donuts." />
-            <DetailsContainer title="Cronuts"  price="22.99" details="Our new croissant-doughnut pastry." />
-            <DetailsContainer title="Cakes"  price="14.99" details="Made to order. We handle all occasions." />
+            <DetailsContainer title="Donuts" price="$17.99" details="Try our world famous donuts." />
+            <DetailsContainer title="Cronuts"  price="$12.99" details="Our new croissant-doughnut pastry." />
+            <DetailsContainer title="Cakes"  price="$14.99" details="Made to order. We handle all occasions." />
           </article>
         <Footer /> 
         </section>               

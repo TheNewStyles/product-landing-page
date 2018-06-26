@@ -11,9 +11,9 @@
 
     font-family: 'Merriweather ', sans-serif;
     color: var(--light-purple);
-    font-size: 1em;
+    font-size: 1em;  
 }
-  
+
 input:focus {
     outline: 0;
 }
