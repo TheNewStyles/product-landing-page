@@ -9,7 +9,7 @@
     border: 0.2em solid var(--light-purple);
     border-radius: 0.5em;
 
-    font-family: 'Merriweather ', sans-serif;
+    font-family: 'Merriweather Sans', 'Merriweather ', sans-serif;
     color: var(--light-purple);
     font-size: 1em;  
 }
