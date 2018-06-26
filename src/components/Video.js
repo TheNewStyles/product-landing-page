@@ -8,7 +8,7 @@ class Video extends Component {
     
     return (
         <article className="video">
-          <video width="620" controls >
+          <video className="round-corners" width="620" controls >
               <VideoSource src="" type="video/mp4" />
               <VideoSource src={video} type="video/mp4" />
               <VideoSource src="https://archive.org/download/ElephantsDream/ed_hd.avi" type="video/mp4" />
