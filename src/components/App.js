@@ -21,7 +21,7 @@ class App extends Component {
           <EmailForm className="email-form" />
           <article className="flex-container-app gray-bg not-as-dark-purple-txt no-margin ">
             <Features title="Organic" alt="Organic leaf icon" logo={leaf} details="We use nothing but the finest organic ingredients. Sourced from our locals farmers and vendors."/>
-            <Features title="Handcrafted"  alt="Bread icon" logo={bread} details="Made from scracth everyday." />
+            <Features title="Handcrafted"  alt="Bread icon" logo={bread} details="Made from scratch everyday." />
             <Features title="Local" alt="gps icon" logo={location} details="We are family owned and operated. Made with love right here in Salt Lake City, UT for over 10 years."/>
           </article>
           <Video />
